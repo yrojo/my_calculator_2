@@ -9,6 +9,10 @@ function equis3(potencia){
 	var num = document.getElementById("n1");
 	num.value = Math.pow(num.value, potencia) ;
 }
+function sineX(){
+	var num = document.getElementById("n1");
+	num.value = Math.sin(num.value);
+}
 </script>
 </head> 
 <body>
@@ -17,6 +21,7 @@ function equis3(potencia){
 	<p>
 		<button onclick="equis3(3)">X<sup>3</sup></button>
 		<button onclick="equis3(4)">X<sup>4</sup></button>
+		<button onclick="sineX()">sin(X)</sup></button>
 	</p>
 </body>
 </html>
