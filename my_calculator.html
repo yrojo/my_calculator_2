@@ -5,9 +5,9 @@
 <meta charset="utf-8">
 <script type="text/javascript">
 
-function equis3(){
+function equis3(potencia){
 	var num = document.getElementById("n1");
-	num.value = Math.pow(num.value, 3) ;
+	num.value = Math.pow(num.value, potencia) ;
 }
 </script>
 </head> 
@@ -15,7 +15,8 @@ function equis3(){
 	Number:
 	<input type="text" id="n1">
 	<p>
-		<button onclick="equis3()">X<sup>3</sup></button>
+		<button onclick="equis3(3)">X<sup>3</sup></button>
+		<button onclick="equis3(4)">X<sup>4</sup></button>
 	</p>
 </body>
 </html>
